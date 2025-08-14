@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white shadow p-4 flex justify-between items-center sm:flex-row sm:items-center px-4 flex-col gap-2">
+  <div class="bg-white fixed shadow w-10/12 p-4 flex justify-between items-center sm:flex-row sm:items-center px-4 flex-col gap-2 ml-64">
     <h1 class="text-lg font-bold">Dashboard</h1>
     <router-link 
       to="/login" 

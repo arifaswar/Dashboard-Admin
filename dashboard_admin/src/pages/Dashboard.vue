@@ -2,7 +2,7 @@
 import DashboardChart from '../components/DashboardChart.vue'
 </script>
 <template>
-  <div class="p-6 bg-gray-100 min-h-screen">
+  <div class="p-6 bg-gray-100 min-h-screen ml-64 w-10/12 mt-24 mb-24">
     <h2 class="text-2xl font-bold mb-6">Dashboard</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
 
@@ -52,7 +52,7 @@ import DashboardChart from '../components/DashboardChart.vue'
     </div>
 
     <!-- Bagian Lain -->
-    <div class="bg-white p-6 shadow rounded">
+    <div class="bg-white p-6 shadow rounded mb-4">
       <h3 class="text-lg font-bold mb-4">Recent Activity</h3>
       <ul class="space-y-2">
         <li class="text-gray-600">User John purchased "Product A"</li>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-center min-h-screen bg-gray-100">
+  <div class="flex items-center justify-center min-h-screen min-w-screen bg-gray-100">
     <div class="bg-white p-6 rounded shadow-md w-80">
       <h2 class="text-xl font-bold mb-4">Login</h2>
       <form @submit.prevent="handleLogin">
@@ -24,7 +24,7 @@
       </form>
       <p class="mt-3 text-sm">
         Belum punya akun?
-        <router-link to="/register" class="text-blue-600">Register</router-link>
+        <router-link to="/register" class="text-blue-600 hover:text-emerald-700">Register</router-link>
       </p>
     </div>
   </div>
